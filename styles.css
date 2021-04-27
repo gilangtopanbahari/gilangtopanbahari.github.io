@@ -1,0 +1,234 @@
+@import  url ( "https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" );
+
+* {
+  margin :  0 ;
+  bantalan :  0 ;
+  ukuran kotak : border-box;
+  list-style : tidak ada;
+  font-family :  "Montserrat" , sans-serif;
+}
+
+tubuh {
+  latar belakang :  # 585c68 ;
+  ukuran font :  14 px ;
+  tinggi garis :  22 px ;
+  warna :  # 555555 ;
+}
+
+. berani {
+  font-weight :  700 ;
+  ukuran font :  20 px ;
+  text-transform : huruf besar;
+}
+
+. semi-tebal {
+  font-weight :  500 ;
+  ukuran font :  16 px ;
+}
+
+. lanjutkan {
+  lebar :  800 px ;
+  tinggi : otomatis;
+  tampilan : flex;
+  margin :  50 px otomatis;
+}
+
+. melanjutkan . resume_left {
+  lebar :  280 px ;
+  latar belakang :  # 095e69 ;
+}
+
+. melanjutkan . resume_left . resume_profile {
+  lebar :  100 % ;
+  tinggi :  280 px ;
+}
+
+. melanjutkan . resume_left . resume_profile  img {
+  lebar :  100 % ;
+  tinggi :  100 % ;
+}
+
+. melanjutkan . resume_left . resume_content {
+  bantalan :  0  25 px ;
+}
+
+. melanjutkan . judul {
+  margin-bottom :  20 px ;
+}
+
+. melanjutkan . resume_left . berani {
+  warna :  # fff ;
+}
+
+. melanjutkan . resume_left . reguler {
+  warna :  # ffc400 ;
+}
+
+. melanjutkan . resume_item {
+  bantalan :  25 px  0 ;
+  batas bawah :  2 px solid # 095e69 ;
+}
+
+. melanjutkan . resume_left . resume_item : anak terakhir ,
+. melanjutkan . resume_right . resume_item : anak-terakhir {
+  batas bawah :  0 px ;
+}
+
+. melanjutkan . resume_left  ul  li {
+  tampilan : flex;
+  margin-bottom :  10 px ;
+  sejajarkan-item : tengah;
+}
+
+. melanjutkan . resume_left  ul  li : last-child {
+  margin bawah :  0 ;
+}
+
+. melanjutkan . resume_left  ul  li . ikon {
+  lebar :  35 piksel ;
+  tinggi :  35 px ;
+  latar belakang :  # fff ;
+  warna :  # ffc400 ;
+  radius batas :  50 % ;
+  margin kanan :  15 piksel ;
+  ukuran font :  16 px ;
+  posisi : relatif;
+}
+
+. melanjutkan . ikon  saya ,
+. melanjutkan . resume_right . resume_hobby  ul  li  i {
+  posisi : mutlak;
+  atas :  50 % ;
+  kiri :  50 % ;
+  transform :  menerjemahkan ( -50 % ,  -50 % );
+}
+
+. melanjutkan . resume_left  ul  li . data {
+  warna :  # ffc400 ;
+}
+
+. melanjutkan . resume_left . resume_skills  ul  li {
+  tampilan : flex;
+  margin-bottom :  10 px ;
+  warna :  # ffc400 ;
+  justify-content : space-between;
+  sejajarkan-item : tengah;
+}
+
+. melanjutkan . resume_left . resume_skills  ul  li . skill_name {
+  lebar :  25 % ;
+}
+
+. melanjutkan . resume_left . resume_skills  ul  li . skill_progress {
+  lebar :  60 % ;
+  margin :  0  5 px ;
+  tinggi :  5 px ;
+  latar belakang :  # ffc400 ;
+  posisi : relatif;
+}
+
+. melanjutkan . resume_left . resume_skills  ul  li . skill_per {
+  lebar :  15 % ;
+}
+
+. melanjutkan . resume_left . resume_skills  ul  li . rentang kemajuan_ keahlian  {
+  posisi : mutlak;
+  atas :  0 ;
+  kiri :  0 ;
+  tinggi :  100 % ;
+  latar belakang :  # fff ;
+}
+
+. melanjutkan . resume_left . resume_social . semi-tebal {
+  warna :  # fff ;
+  margin-bottom :  3 px ;
+}
+
+. melanjutkan . resume_right {
+  lebar :  520 px ;
+  latar belakang :  # fff ;
+  bantalan :  25 px ;
+}
+
+. melanjutkan . resume_right . berani {
+  warna :  # ffc400 ;
+}
+
+. melanjutkan . resume_right . resume_work  ul ,
+. melanjutkan . resume_right . resume_education  ul {
+  padding-left :  40 px ;
+  overflow : hidden;
+}
+
+. melanjutkan . resume_right  ul  li {
+  posisi : relatif;
+}
+
+. melanjutkan . resume_right  ul  li . tanggal {
+  ukuran font :  16 px ;
+  font-weight :  500 ;
+  margin-bottom :  15 px ;
+}
+
+. melanjutkan . resume_right  ul  li . info {
+  margin-bottom :  20 px ;
+}
+
+. melanjutkan . resume_right  ul  li : anak terakhir . info {
+  margin bawah :  0 ;
+}
+
+. melanjutkan . resume_right . resume_work  ul  li : sebelum ,
+. melanjutkan . resume_right . resume_education  ul  li : before {
+  konten :  "" ;
+  posisi : mutlak;
+  atas :  5 px ;
+  kiri :  -25 px ;
+  lebar :  6 px ;
+  tinggi :  6 px ;
+  radius batas :  50 % ;
+  batas :  2 piksel solid # ffc400 ;
+}
+
+. melanjutkan . resume_right . resume_work  ul  li : setelah ,
+. melanjutkan . resume_right . resume_education  ul  li : setelah {
+  konten :  "" ;
+  posisi : mutlak;
+  atas :  14 px ;
+  kiri :  -21 px ;
+  lebar :  2 px ;
+  tinggi :  115 px ;
+  latar belakang :  # 095e69 ;
+}
+
+. melanjutkan . resume_right . resume_hobby  ul {
+  tampilan : flex;
+  justify-content : space-between;
+}
+
+. melanjutkan . resume_right . resume_hobby  ul  li {
+  lebar :  80 px ;
+  tinggi :  80 px ;
+  batas :  2 piksel solid # 095e69 ;
+  radius batas :  50 % ;
+  posisi : relatif;
+  warna :  # ffc400 ;
+}
+
+. melanjutkan . resume_right . resume_hobby  ul  li  i {
+  ukuran font :  30 px ;
+}
+
+. melanjutkan . resume_right . resume_hobby  ul  li : before {
+  konten :  "" ;
+  posisi : mutlak;
+  atas :  40 piksel ;
+  kanan :  -52 px ;
+  lebar :  50 px ;
+  tinggi :  2 px ;
+  latar belakang :  # 095e69 ;
+}
+
+. melanjutkan . resume_right . resume_hobby  ul  li : last-child : before {
+  tampilan : tidak ada;
+}
